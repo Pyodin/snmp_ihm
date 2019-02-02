@@ -151,7 +151,7 @@ class Simpleapp_tk(Tk):
         
 
     def v3_bouton(self):
-        self.v3 = fv3.V3_config(self.parent)
+        self.v3 = fv3.V3_config(self)
         self.v3.title("SNMPv3 Config")
         self.v3.mainloop()
 

@@ -21,7 +21,7 @@ class V3_config(Toplevel):
 #       |
 #       \/
 
-        #parent.test=1   <========== L'ERREUR EST ICI 
+        self.parent.test=1 #   <========== L'ERREUR EST ICI 
 
 #       /\
 #       |
